@@ -30,19 +30,19 @@ This is a Python program that reads a text file, identifies unique words, and co
 
    ```shell
    python word_counter.py
-Weather App
+# Weather App
 This is a simple Python application that allows you to check the current weather for a city using the OpenWeatherMap API. The application uses the tkinter library for the graphical user interface and the requests library to fetch weather data.
 
-Features
+# Features
 Enter the name of a city to get its current weather.
 Choose between Celsius and Fahrenheit for temperature units.
 Display user-friendly error messages for various scenarios.
 Getting Started
-Prerequisites
+# Prerequisites
 Python (3.x recommended)
 tkinter library (usually included with Python)
 requests library (install with pip install requests)
-Installation
+# Installation
 Clone the repository to your local machine:
 
 bash
