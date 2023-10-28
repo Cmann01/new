@@ -71,3 +71,60 @@ Contributions are welcome! If you have any suggestions or improvements, feel fre
 Acknowledgments
 OpenWeatherMap for providing the weather data.
 The Python community for the tkinter and requests libraries.
+# Expense Tracker
+
+The Expense Tracker is a simple Python program with a graphical user interface (GUI) built using the tkinter library. It allows you to track your daily expenses by recording details such as the date, category, amount, and description of each expense. Additionally, you can display the recorded expenses, export them to a CSV file, and generate monthly expense reports.
+
+## Features
+
+- **Add Expenses:** Record your daily expenses by providing the date, category, amount, and an optional description.
+
+- **Display Expenses:** View a list of all the expenses you've recorded in a separate window.
+
+- **Export to CSV:** Export your expense data to a CSV file for further analysis or record-keeping.
+
+- **Generate Reports:** Create monthly expense reports with a pie chart for a visual representation of your spending.
+
+## Prerequisites
+
+- Python 3.x (Install it from [python.org](https://www.python.org/downloads/))
+
+## Getting Started
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/expense-tracker.git
+   cd expense-tracker
+Install Required Libraries:
+
+Install the necessary Python libraries using pip:
+
+bash
+Copy code
+pip install matplotlib
+Run the Program:
+
+Run the Expense Tracker program:
+
+bash
+Copy code
+python expense_tracker.py
+Using the Program:
+
+Enter your expenses in the input fields and click "Add Expense" to record them.
+Use the "Display Expenses" button to view all your recorded expenses.
+Export your expense data to a CSV file by clicking "Export to CSV."
+Generate monthly expense reports with the "Generate Report" button.
+Close the Program:
+
+To close the program, click the window's close button.
+
+Database
+The program uses an SQLite database to store expense data. The database file is created in the project directory when you run the program. The database schema includes the following fields:
+
+id: An auto-incremented unique identifier for each expense.
+date: The date of the expense.
+category: The category of the expense.
+amount: The amount spent.
+description: An optional description of the expense.
