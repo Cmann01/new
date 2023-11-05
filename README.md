@@ -128,3 +128,48 @@ date: The date of the expense.
 category: The category of the expense.
 amount: The amount spent.
 description: An optional description of the expense.
+
+# Real-Time Chat Application
+
+This is a real-time chat application built in Python that allows multiple users to join chat rooms, exchange messages, and share files. The project consists of both server-side and client-side scripts with a graphical user interface for the clients.
+
+## Features
+
+- **Multiple Chat Rooms**: Users can create and join chat rooms, allowing separate conversations.
+- **User-Friendly Interface**: The client-side uses a GUI created with the `tkinter` library for an interactive and user-friendly experience.
+- **Timestamps**: Messages are displayed with timestamps.
+- **Message History**: Chat history is displayed, including messages sent before joining.
+- **File Sharing**: Users can exchange files within the chat rooms.
+- **Real-Time Communication**: Messages are delivered in real-time to all clients in the same chat room.
+
+## How to Run
+
+### Server-Side
+
+1. Clone this repository or download the `chat_server.py` file.
+2. Open a terminal and navigate to the directory containing `chat_server.py`.
+3. Run the server script by providing your IP address and a port number as command-line arguments. For example:
+
+```bash
+python chat_server.py 127.0.0.1 8080
+The server is now running and listening for client connections. Keep the server terminal open.
+Client-Side
+Clone this repository or download the client.py file.
+Open a terminal and navigate to the directory containing client.py.
+Run the client script by executing the following command:
+bash
+Copy code
+python client.py
+When the client script starts, it will prompt you to enter your name. Enter your desired name and press Enter.
+
+Next, it will ask you to enter the chat room you want to join. You can either create a new room or join an existing one by entering the room name and pressing Enter.
+
+The chat client window will open with the chat room name in the title. You can start chatting by typing messages in the input field at the bottom and pressing Enter or clicking the "Send" button.
+
+You can create additional chat clients by opening new terminal windows and running the client.py script. Each client can join an existing chat room or create a new one.
+
+Messages sent by one client will be received by all clients in the same chat room.
+
+To exit a chat client, simply close its window.
+
+To stop the chat server, go to the server terminal and press Ctrl+C to terminate the server.
